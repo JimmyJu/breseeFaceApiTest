@@ -142,7 +142,6 @@ public class MainActivity extends BaseActivity {
     private TextView tvName;
     private TextView tvDiscernFailure;
 
-
     /**
      * 底部状态View
      */
