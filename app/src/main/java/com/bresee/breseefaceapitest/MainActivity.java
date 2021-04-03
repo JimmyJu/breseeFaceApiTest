@@ -33,11 +33,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import androidx.lifecycle.Observer;
-
 import com.bresee.breseefaceapitest.activity.BaseActivity;
 import com.bresee.breseefaceapitest.camera.CameraManager;
 import com.bresee.breseefaceapitest.camera.CameraPreview;
@@ -66,6 +61,11 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.lifecycle.Observer;
+
 import static com.bresee.breseefaceapitest.ActivityHelper.NV21_rotate_to_180;
 import static com.bresee.breseefaceapitest.ActivityHelper.NV21_rotate_to_270;
 import static com.bresee.breseefaceapitest.ActivityHelper.NV21_rotate_to_90;
@@ -83,6 +83,7 @@ public class MainActivity extends BaseActivity {
     private FaceDetResult faceRegInput;
     private FaceExtrResult faceExtrResult;
     private FaceCompareResult faceCompareResult;
+
 
     private CameraPreview cameraView;
     private CameraPreview cameraView_ir;
