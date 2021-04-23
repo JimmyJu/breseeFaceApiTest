@@ -195,7 +195,7 @@ public class MainActivity extends BaseActivity {
             manager_ir.open(getWindowManager(), true, ConfigParam.cameraWidth, ConfigParam.cameraHeight);//红外
             manager.open(getWindowManager(), false, ConfigParam.cameraWidth, ConfigParam.cameraHeight);//可见光
         } else {
-            manager.open(getWindowManager(), false, ConfigParam.cameraWidth, ConfigParam.cameraHeight);//可见光
+            manager.open(getWindowManager(), true, ConfigParam.cameraWidth, ConfigParam.cameraHeight);//可见光
         }
         super.onResume();
     }
