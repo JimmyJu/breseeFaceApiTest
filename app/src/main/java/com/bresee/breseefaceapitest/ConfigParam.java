@@ -17,7 +17,7 @@ public class ConfigParam {
     public static final float recogniseThreshold = 0.80f;                /**识别阈值*/
     public static final int qualityThreshold = 30;                       /**质量阈值*/
     public static final int angleThreshold = 40;                         /**角度阈值*/
-    public static final int cameraPreviewRotation = 90;                  /**相机预览角度设置，根据实际显示设置，0、90、180、270*/
+    public static final int cameraPreviewRotation = 270;                  /**相机预览角度设置，根据实际显示设置，0、90、180、270*/
     public static final int cameraFrameRotation = 90;                    /**捕获帧角度设置，根据实际显示设置，0、90、180、270*/
     public static final float cameraPreviewScaleWidht = 1.0f;            /**相机预览宽缩放设置*/
     public static final float cameraPreviewScaleHeight = 1.0f;           /**相机预览高缩放设置*/
